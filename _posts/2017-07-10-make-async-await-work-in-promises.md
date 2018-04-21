@@ -20,7 +20,7 @@ I got this error
 SyntaxError: Unexpected identifier
 ```
 
-I knew I need to add `async` into the mix, so I was changing the function to
+I knew I needed to add `async` into the mix, so I was changing the function to
 
 ```js
 async function returnSomething(name) { // <--- this line
