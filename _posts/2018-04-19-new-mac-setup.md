@@ -2,11 +2,13 @@
 title: What I do when I setup my new Mac
 ---
 
+When I install my new Mac I do a few things to set it to my needs. Maybe you like those apps and settings and can use it as well. If I need a few essentials, hit my up [on Twitter](https://twitter.com/harianus).
+
 ## Install
 
 - [Amphetamine](https://itunes.apple.com/nl/app/amphetamine/id937984704?mt=12) to keep your mac awake
 - [CopyClip](https://itunes.apple.com/is/app/copyclip-clipboard-history-manager/id595191960?mt=12) for managing your clipboard
-- [Chrome](https://www.google.com/chrome) for the dev tools
+- [Chrome](https://www.google.com/chrome) for the dev tools (I tried Safari, but no)
 - [Atom](https://atom.io) for editing text
 - [Brew](https://brew.sh) for packages
 - [nvm](https://github.com/creationix/nvm) for Node versions
