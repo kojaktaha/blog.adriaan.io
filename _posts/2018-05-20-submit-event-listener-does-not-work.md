@@ -35,7 +35,7 @@ But fortunately we can use [`document.createEvent`](https://developer.mozilla.or
 const form = document.querySelector('form')
 form.addEventListener('submit', (event) => {
   event.preventDefault()
-  console.log('We are never getting here unless your click a submit button in the form')
+  console.log('We do get here when both a submit button is clicked and the image')
 })
 
 const image = document.querySelector('submit-image')
