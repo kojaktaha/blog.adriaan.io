@@ -16,14 +16,22 @@ When I install my new Mac I do a few things to set it to my needs. Maybe you lik
 ## Setup git
 
 ```bash
-brew install git-flow
+# personal settings
 git config --global user.name "Adriaan van Rossum"
 git config --global user.email whatever@example.com
+
+# if you want to use git flow
+brew install git-flow
+
+# some shortcuts, I don't like typing
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
+
+# theses settings change the default behaviour, know what it means before using it
 git config --global pull.rebase true
+git config --global push.default current
 
 # if you have git < 1.7.9 (check with git --version)
 git config --global branch.autosetuprebase always
