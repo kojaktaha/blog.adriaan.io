@@ -15,24 +15,46 @@ When I install my new Mac I do a few things to set it to my needs. Maybe you lik
 
 ## Setup git
 
-```bash
-# personal settings
-git config --global user.name "Adriaan van Rossum"
-git config --global user.email whatever@example.com
+Add this to the settings file (`~/.gitconfig`):
 
-# if you want to use git flow
-brew install git-flow
+```
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[user]
+	name = Adriaan van Rossum
+	email = ...
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = true
+[push]
+	default = current
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+```
 
-# some shortcuts, I don't like typing
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
+Maybe change your name :)
 
-# theses settings change the default behaviour, know what it means before using it
-git config --global pull.rebase true
-git config --global push.default current
+Create a file `~/.gitexcludes` with `.DS_Store` in it:
 
-# if you have git < 1.7.9 (check with git --version)
-git config --global branch.autosetuprebase always
+```
+echo '.DS_Store' >> ~/.gitexcludes
 ```
