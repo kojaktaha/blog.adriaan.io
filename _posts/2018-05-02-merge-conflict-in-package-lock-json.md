@@ -2,7 +2,7 @@
 title: Merge conflict in package-lock.json
 ---
 
-We have all probably been here
+We probably have all been here
 
 ```bash
 $ git pull origin develop
@@ -27,11 +27,11 @@ git add package-lock.json
 git commit
 ```
 
-Or as a oneliner so it does not chain when one command fails
+Or as a oneliner so it does not continue when one command fails
 
 ```bash
 rm package-lock.json && npm install && git add package-lock.json && git commit
 ```
 
-Do note that this _might_ update your package versions, which is defeats the purpose of why the `package-lock.json` exists. It's recommended to manually edit the `package.json` file, and run `npm install [--package-lock-only]` again, as per the [docs](https://docs.npmjs.com/files/package-locks#resolving-lockfile-conflicts) 
+Do note that this _might_ update your package versions, which is defeats the purpose of why the `package-lock.json` exists. It's recommended to manually edit the `package.json` file, and run `npm install [--package-lock-only]` again, as per the [docs](https://docs.npmjs.com/files/package-locks#resolving-lockfile-conflicts).
 
