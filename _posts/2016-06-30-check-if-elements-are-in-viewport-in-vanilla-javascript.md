@@ -25,7 +25,7 @@ const sections = document.querySelectorAll('section.fly-in');
 
 window.onscroll = function() {
   // Don't run the rest of the code if every section is already visible
-  if (document.querySelectorAll('section.fly-in:not(.visible)').length === 0) return;
+  if (!document.querySelectorAll('section.fly-in:not(.visible)')) return;
   
   // Run this code for every section in sections
   for (const section of sections) {
