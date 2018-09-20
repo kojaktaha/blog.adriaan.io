@@ -7,6 +7,6 @@ Sometimes you code and think: *"Hey, this is neat"*. When I have such a moment I
 
 ![](https://cloud.githubusercontent.com/assets/1079135/9850838/9e7580fc-5af5-11e5-84a7-f559df292a1b.JPG)
 
-- [GitHub](https://github.com/harianus/)
+- [GitHub](https://github.com/adriaanvanrossum/)
 - [Twitter](https://twitter.com/harianus/)
 - [LinkedIn](https://nl.linkedin.com/in/adriaanvanrossum)
