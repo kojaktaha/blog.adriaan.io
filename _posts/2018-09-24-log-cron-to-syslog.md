@@ -16,7 +16,7 @@ I also you a date function, so make sure to escape the `%`'s.
 02 4 * * * (/usr/bin/pg_dump your_database -U your_user -Fc > "/your/backup/folder/$(date '+\%Y-\%m-\%d').sql") 2>&1 | /usr/bin/logger -t BACKUP
 ```
 
-So later you can do this to find relevant log message.
+So after is has been run you can find the relevant log messages.
 
 ```bash
 sudo grep BACKUP /var/log/syslog
