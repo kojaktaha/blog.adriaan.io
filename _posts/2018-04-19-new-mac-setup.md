@@ -12,6 +12,10 @@ When I install my new Mac I do a few things to set it to my needs. Maybe you lik
 - [Brew](https://brew.sh) for packages
 - [nvm](https://github.com/creationix/nvm) for Node versions
 
+## Terminal
+
+- [Inconsolata font](https://github.com/google/fonts/tree/master/ofl/inconsolata)
+
 ## Setup git
 
 Add this to the settings file (`~/.gitconfig`):
