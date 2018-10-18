@@ -6,10 +6,9 @@ When I install my new Mac I do a few things to set it to my needs. Maybe you lik
 
 ## Install
 
-- [Amphetamine](https://itunes.apple.com/nl/app/amphetamine/id937984704?mt=12) to keep your mac awake
-- [CopyClip](https://itunes.apple.com/is/app/copyclip-clipboard-history-manager/id595191960?mt=12) for managing your clipboard
-- [Chrome](https://www.google.com/chrome) for the dev tools (I tried Safari, but no)
-- [Atom](https://atom.io) for editing text
+- [Firefox](https://www.mozilla.org/en-US/firefox/new) for the dev tools (I tried Safari, but no)
+- [Visual Studio Code](https://code.visualstudio.com/Download) for editing text
+- [Paste](https://pasteapp.me/) for managing your clipboard
 - [Brew](https://brew.sh) for packages
 - [nvm](https://github.com/creationix/nvm) for Node versions
 
