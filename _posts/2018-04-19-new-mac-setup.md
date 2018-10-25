@@ -60,4 +60,5 @@ Create a file `~/.gitexcludes` with `.DS_Store` in it:
 
 ```
 echo '.DS_Store' >> ~/.gitexcludes
+git config --global core.excludesfile ~/.gitexcludes
 ```
