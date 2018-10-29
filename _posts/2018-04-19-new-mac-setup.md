@@ -62,3 +62,25 @@ Create a file `~/.gitexcludes` with `.DS_Store` in it:
 echo '.DS_Store' >> ~/.gitexcludes
 git config --global core.excludesfile ~/.gitexcludes
 ```
+
+My settings for Visual Studio Code:
+
+```json
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": -1,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "javascript.suggestionActions.enabled": false,
+    "files.trimTrailingWhitespace": true
+}
+```
