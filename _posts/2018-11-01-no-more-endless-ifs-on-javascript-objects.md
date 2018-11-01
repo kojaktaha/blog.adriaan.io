@@ -48,15 +48,17 @@ try {
 But I like to have a little function that does this for me:
 
 ```js
-const get = (variable, selector) => {
+// Copy this function
+const get = (object, selector) => {
   try {
+    if (typeof object !== 'object') return
     return eval(`variable.${selector}`)
   } catch (error) {
-    return undefined
+    return
   }
 }
 
-// so you can do
+// So you can do
 const { last4 } = get(customer, 'sources.data[0]')
 ```
 
