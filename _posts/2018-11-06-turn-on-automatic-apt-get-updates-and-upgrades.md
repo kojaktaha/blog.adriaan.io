@@ -2,7 +2,7 @@
 title: Turn on automatic apt-get updates and upgrades
 ---
 
-Often times when I login to a VPS I usually get this kind of message:
+Often times when I login to a VPS I get this a message like this:
 
 ```
 32 packages can be updated.
