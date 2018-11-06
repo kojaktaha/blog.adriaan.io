@@ -19,4 +19,4 @@ So when I want to auto upgrade my packages I can install a cronjob as root (`sud
 20 4 * * * sudo apt-get -y update && sudo apt-get -y upgrade
 ```
 
-Which will update and upgrade my packeges at 4:20 AM.
+Which will update and upgrade my packages at 4:20 AM.
