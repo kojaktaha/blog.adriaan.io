@@ -89,4 +89,4 @@ My settings for Visual Studio Code:
 
 Disable the weird sound effects of Mac like the trash and screenshot sounds
 
-![](/images/disable-sound-effects.png)
+![](/images/posts/disable-sound-effects.png)
