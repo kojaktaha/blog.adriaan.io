@@ -20,6 +20,8 @@ When I install my new Mac I do a few things to set it to my needs. Maybe you lik
 
 Add this to the settings file (`~/.gitconfig`):
 
+> This is with rebasing enabled by default for branches and pulls.
+
 ```
 [alias]
 	co = checkout
@@ -84,3 +86,7 @@ My settings for Visual Studio Code:
     "files.trimTrailingWhitespace": true
 }
 ```
+
+Disable the weird sound effects of Mac like the trash and screenshot sounds
+
+![](/images/disable-sound-effects.png)
