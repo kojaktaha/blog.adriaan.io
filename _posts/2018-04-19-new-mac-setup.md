@@ -65,7 +65,7 @@ echo '.DS_Store' >> ~/.gitexcludes
 git config --global core.excludesfile ~/.gitexcludes
 ```
 
-My settings for Visual Studio Code:
+My settings for Visual Studio Code (I will update when I change my settings):
 
 ```json
 {
@@ -73,8 +73,13 @@ My settings for Visual Studio Code:
     "telemetry.enableCrashReporter": false,
     "workbench.colorTheme": "Default Light+",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#0A0A0D",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "newUntitledFile",
     "files.insertFinalNewline": true,
@@ -83,7 +88,13 @@ My settings for Visual Studio Code:
     "explorer.confirmDragAndDrop": false,
     "editor.tabSize": 2,
     "javascript.suggestionActions.enabled": false,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontFamily": "Inconsolata",
+    "terminal.integrated.fontSize": 15
 }
 ```
 
