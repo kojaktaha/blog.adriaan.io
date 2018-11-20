@@ -17,16 +17,32 @@
   display: inline-block;
   padding: 10px;
   border-radius: 5px;
-  border: 2px dashed #55acee;
-  color: #55acee;
+  border: 2px dashed white;
+  color: white;
 }
 
 .like-on-twitter p a {
-  color: #55acee !important;
+  color: white !important;
   text-decoration: none;
 }
 
 .like-on-twitter p a:hover {
-  border-bottom: 1px solid #55acee;
+  border-bottom: 1px solid white;
+  text-decoration: underline;
 }
 
+.subscribe-box {
+  background-color: #75b5aa;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.subscribe-box a {
+  color: white;
+}
+
+.subscribe-box a:hover {
+  color: white;
+  text-decoration: underline;
+}
