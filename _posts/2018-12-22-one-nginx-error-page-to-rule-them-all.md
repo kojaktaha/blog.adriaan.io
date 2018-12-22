@@ -40,7 +40,7 @@ After this you create a `error.html` file in `/var/www/default/` (you can change
 </html>
 ```
 
-If will return something like `<h1>404 Not found</h1>`, but for the `status_text` to work you will need this map in your NGINX config:
+To get the variable `status_text` to work you will need this map in your the http directive ([docs](https://nginx.org/en/docs/http/ngx_http_map_module.html)):
 
 ```nginx
 map $status $status_text {
@@ -92,3 +92,9 @@ Reload your NGINX config (no need to restart NGINX):
 ```bash
 sudo nginx -t && sudo service nginx reload
 ```
+
+### Useful links
+
+- https://nginx.org/en/docs/http/ngx_http_ssi_module.html
+ - https://www.nginx.com/resources/wiki/start/topics/examples/dynamic_ssi/
+ - https://www.cambus.net/nginx-and-server-side-includes/
