@@ -111,6 +111,6 @@ sudo nginx -t && sudo service nginx reload
 
 ### Useful links
 
-- https://nginx.org/en/docs/http/ngx_http_ssi_module.html
- - https://www.nginx.com/resources/wiki/start/topics/examples/dynamic_ssi/
- - https://www.cambus.net/nginx-and-server-side-includes/
+ - [nginx.org/en/docs/http/ngx_http_ssi_module.html](https://nginx.org/en/docs/http/ngx_http_ssi_module.html)
+ - [nginx.com/resources/wiki/start/topics/examples/dynamic_ssi/](https://www.nginx.com/resources/wiki/start/topics/examples/dynamic_ssi/)
+ - [cambus.net/nginx-and-server-side-includes/](https://www.cambus.net/nginx-and-server-side-includes/)
