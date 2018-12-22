@@ -4,6 +4,14 @@ title: One NGINX error page to rule them all
 
 When I setup an NGINX server I have to setup custom error pages for every error. I want to show the error message on the page and not have a genenic _"Something is wrong"_ error page. If customers complain about an error page it's nice if they can communicate you the error code or message.
 
+## Before & after
+
+![](/images/posts/nginx-error-page/404-default.png)
+
+![](/images/posts/nginx-error-page/404-styled.png)
+
+## NGINX error page config
+
 First of all you need to create an error_page in your `http`, `server`, or `location` directive ([docs](https://nginx.org/en/docs/http/ngx_http_core_module.html#error_page)):
 
 ```nginx
@@ -15,6 +23,8 @@ location = /error.html {
   root /var/www/default;
 }
 ```
+
+## Error page template
 
 After this you create a `error.html` file in `/var/www/default/` (you can change this directory of course). At Simple Analytics we deploy our app to our server and for one second NGINX will return a 502 error because the app is reloading. We inform our users with a custom error message and we automatically refresh the page every 2 seconds:
 
@@ -39,6 +49,8 @@ After this you create a `error.html` file in `/var/www/default/` (you can change
 </body>
 </html>
 ```
+
+## NGINX error codes map
 
 To get the variable `status_text` to work you will need this map in your the http directive ([docs](https://nginx.org/en/docs/http/ngx_http_map_module.html)):
 
@@ -93,7 +105,7 @@ Reload your NGINX config (no need to restart NGINX):
 sudo nginx -t && sudo service nginx reload
 ```
 
-### Test your config
+## Test your config
 
 Add this to your server directive:
 
@@ -109,7 +121,7 @@ And reload your NGINX again:
 sudo nginx -t && sudo service nginx reload
 ```
 
-### Useful links
+## Useful links
 
  - [nginx.org/en/docs/http/ngx_http_ssi_module.html](https://nginx.org/en/docs/http/ngx_http_ssi_module.html)
  - [nginx.com/resources/wiki/start/topics/examples/dynamic_ssi/](https://www.nginx.com/resources/wiki/start/topics/examples/dynamic_ssi/)
