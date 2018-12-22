@@ -93,6 +93,22 @@ Reload your NGINX config (no need to restart NGINX):
 sudo nginx -t && sudo service nginx reload
 ```
 
+### Test your config
+
+Add this to your server directive:
+
+```
+location = /404.html {
+  return 404;
+}
+```
+
+And reload your NGINX again:
+
+```bash
+sudo nginx -t && sudo service nginx reload
+```
+
 ### Useful links
 
 - https://nginx.org/en/docs/http/ngx_http_ssi_module.html
