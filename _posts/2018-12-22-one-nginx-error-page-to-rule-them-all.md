@@ -26,7 +26,7 @@ location = /error.html {
 
 ## Error page template
 
-After this you create a `error.html` file in `/var/www/default/` (you can change this directory of course). At Simple Analytics we deploy our app to our server and for one second NGINX will return a 502 error because the app is reloading. We inform our users with a custom error message and we automatically refresh the page every 2 seconds:
+After this you create a `error.html` file in `/var/www/default/` (you can change this directory of course). At [Simple Analytics](https://simpleanalytics.io/?ref=blog.adriaan.io) we deploy our app to our server and for one second NGINX will return a 502 error because the app is reloading. We inform our users with a custom error message and we automatically refresh the page every 2 seconds:
 
 ```html
 <!DOCTYPE html>
