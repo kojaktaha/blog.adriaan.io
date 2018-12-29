@@ -102,7 +102,7 @@ map $status $status_text {
 Reload your NGINX config (no need to restart NGINX):
 
 ```bash
-sudo nginx -t && sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 ```
 
 ## Test your config
