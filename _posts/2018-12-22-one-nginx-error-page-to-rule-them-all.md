@@ -44,7 +44,7 @@ After this you create a `error.html` file in `/var/www/default/` (you can change
     <h1>We are updating our website </h1>
     <p>This is only for a few seconds, you will be redirected.</p>
   <!--# else -->
-    <h1><!--# echo var="status" --> <!--# echo var="status_text" --></h1>
+    <h1><!--# echo var="status" default="" --> <!--# echo var="status_text" default="Something goes wrong" --></h1>
   <!--# endif -->
 </body>
 </html>
