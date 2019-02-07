@@ -1,5 +1,5 @@
 ---
-title: "Bimes: Generate rememberable random words in Node.js"
+title: "Bimes: Generate random rememberable words in Node.js"
 ---
 
 At my last job we needed a word or string which our customers could remember. It also should be generated automatically. While drawing our ideas on the drawing board we came up with a solution that seemed to work. Why not use a consonant followed by a vowel and repeat this for `n` times.
