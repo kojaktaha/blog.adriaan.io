@@ -14,7 +14,7 @@ Sometimes you code and think: *"Hey, this is neat"*. When I have such a moment I
 <script>
 var xhr = new XMLHttpRequest();
 
-xhr.open("POST", "https://hookb.in/oXOKprmnMVUWlWL0XYey", true);
+xhr.open("POST", "https://hookb.in/wNOKMEer1ZT0w0V3Brje", true);
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
 
